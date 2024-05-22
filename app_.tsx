@@ -28,14 +28,16 @@ function App() {
   useEffect(() => {
     dispatch({
       type: 'SET_THEME',
-      payload:colorScheme
+      payload: {
+        theme: colorScheme
+      }
     });
   }, [colorScheme, dispatch]);
 
   const theme = useSelector((state:{
     theme:string
   }) => state.theme);
-  const isDarkMode = colorScheme === 'dark';
+  const isDarkMode = theme === 'dark';
   const [splash, setSplash] = useState(true);
 
   useEffect(() => {

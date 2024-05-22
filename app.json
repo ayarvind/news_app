@@ -1,4 +1,7 @@
 {
-  "name": "real",
-  "displayName": "real"
+"name": "real",
+  "displayName": "real",
+  "API_BASE_URL":"https://google-news13.p.rapidapi.com",
+  "XRapidAPIKey":"d1372c7241msh14d16f39d5b4dedp127a6cjsn09c99b9bfa9a",
+  "XRapidAPIHost":"google-news13.p.rapidapi.com"
 }
